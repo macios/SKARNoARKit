@@ -21,7 +21,6 @@
 @interface ARModelVC ()
 {
     int index;
-    
 }
 @property (nonatomic , strong) EAGLContext* mContext;
 @property (nonatomic , strong)NSMutableArray *bufferArr;
