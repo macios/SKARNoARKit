@@ -15,6 +15,10 @@
 		FE004F3B219A9BBA00B8D939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F3A219A9BBA00B8D939 /* main.m */; };
 		FE004F45219A9BBA00B8D939 /* SKARNoARKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F44219A9BBA00B8D939 /* SKARNoARKitTests.m */; };
 		FE004F50219A9BBA00B8D939 /* SKARNoARKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F4F219A9BBA00B8D939 /* SKARNoARKitUITests.m */; };
+		FE004F63219AA0BB00B8D939 /* SKLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F60219AA0BB00B8D939 /* SKLocationView.m */; };
+		FE004F64219AA0BB00B8D939 /* SKLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F61219AA0BB00B8D939 /* SKLocationModel.m */; };
+		FE004F67219AA19A00B8D939 /* SKARVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F66219AA19A00B8D939 /* SKARVC.m */; };
+		FE004F6A219AA1DA00B8D939 /* SKLatLng.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F68219AA1D900B8D939 /* SKLatLng.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		FE004F4B219A9BBA00B8D939 /* SKARNoARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKARNoARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE004F4F219A9BBA00B8D939 /* SKARNoARKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKARNoARKitUITests.m; sourceTree = "<group>"; };
 		FE004F51219A9BBA00B8D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE004F5F219AA0BB00B8D939 /* SKLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLocationView.h; sourceTree = "<group>"; };
+		FE004F60219AA0BB00B8D939 /* SKLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLocationView.m; sourceTree = "<group>"; };
+		FE004F61219AA0BB00B8D939 /* SKLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLocationModel.m; sourceTree = "<group>"; };
+		FE004F62219AA0BB00B8D939 /* SKLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLocationModel.h; sourceTree = "<group>"; };
+		FE004F65219AA19A00B8D939 /* SKARVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKARVC.h; sourceTree = "<group>"; };
+		FE004F66219AA19A00B8D939 /* SKARVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKARVC.m; sourceTree = "<group>"; };
+		FE004F68219AA1D900B8D939 /* SKLatLng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLatLng.m; sourceTree = "<group>"; };
+		FE004F69219AA1D900B8D939 /* SKLatLng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLatLng.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,8 @@
 		FE004F1F219A9BB700B8D939 = {
 			isa = PBXGroup;
 			children = (
+				FE004F5E219AA02200B8D939 /* 3DCamera */,
+				FE004F5D219AA00400B8D939 /* LocationCamera */,
 				FE004F2A219A9BB700B8D939 /* SKARNoARKit */,
 				FE004F43219A9BBA00B8D939 /* SKARNoARKitTests */,
 				FE004F4E219A9BBA00B8D939 /* SKARNoARKitUITests */,
@@ -130,6 +144,28 @@
 				FE004F51219A9BBA00B8D939 /* Info.plist */,
 			);
 			path = SKARNoARKitUITests;
+			sourceTree = "<group>";
+		};
+		FE004F5D219AA00400B8D939 /* LocationCamera */ = {
+			isa = PBXGroup;
+			children = (
+				FE004F65219AA19A00B8D939 /* SKARVC.h */,
+				FE004F66219AA19A00B8D939 /* SKARVC.m */,
+				FE004F62219AA0BB00B8D939 /* SKLocationModel.h */,
+				FE004F61219AA0BB00B8D939 /* SKLocationModel.m */,
+				FE004F5F219AA0BB00B8D939 /* SKLocationView.h */,
+				FE004F60219AA0BB00B8D939 /* SKLocationView.m */,
+				FE004F69219AA1D900B8D939 /* SKLatLng.h */,
+				FE004F68219AA1D900B8D939 /* SKLatLng.m */,
+			);
+			path = LocationCamera;
+			sourceTree = "<group>";
+		};
+		FE004F5E219AA02200B8D939 /* 3DCamera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3DCamera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE004F30219A9BB700B8D939 /* ViewController.m in Sources */,
+				FE004F67219AA19A00B8D939 /* SKARVC.m in Sources */,
+				FE004F64219AA0BB00B8D939 /* SKLocationModel.m in Sources */,
+				FE004F63219AA0BB00B8D939 /* SKLocationView.m in Sources */,
+				FE004F6A219AA1DA00B8D939 /* SKLatLng.m in Sources */,
 				FE004F3B219A9BBA00B8D939 /* main.m in Sources */,
 				FE004F2D219A9BB700B8D939 /* AppDelegate.m in Sources */,
 			);
