@@ -11,6 +11,7 @@
 #import <CoreMotion/CoreMotion.h>
 #import "SKLatLng.h"
 #import "SKLocationView.h"
+#import "SKCameraView.h"
 
 #define TimeUpdateInterval (1/60.)
 
@@ -29,13 +30,33 @@
 
 @implementation SKARVC
 
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self CMMotionStart];
+    [_locManager startUpdatingHeading];
+}
+
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [_motMgr stopAccelerometerUpdates];
+    [_locManager startUpdatingHeading];
+}
+
+-(void)dealloc{
+    _motMgr = nil;
+    _locManager = nil;
+}
+
 - (void)viewDidLoad
 {
     _locationArr = @[].mutableCopy;
     [super viewDidLoad];
+    [SKCameraView share].frame = self.view.bounds;
+    [self.view addSubview:[SKCameraView share]];
+    
     [self loadData];
     [self startgps];
-    _motMgr = [CMMotionManager new];
+    
     [self CMMotionStart];
 }
 
@@ -46,6 +67,10 @@
 }
 
 -(void)CMMotionStart{
+    if (!_motMgr) {
+        _motMgr = [CMMotionManager new];
+    }
+    
     if (_motMgr) {
         if (_motMgr.gyroAvailable == YES) {
             _motMgr.accelerometerUpdateInterval = TimeUpdateInterval;
@@ -71,7 +96,7 @@
     _locManager.delegate = self;
     _locManager.distanceFilter = 1000.0f;
     _locManager.desiredAccuracy = kCLLocationAccuracyBest;
-    [_locManager startUpdatingHeading];
+//    [_locManager startUpdatingHeading];
 }
 -(void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading{
     _locHead = newHeading.magneticHeading;
@@ -127,5 +152,6 @@
         [_locationArr addObject:view];
     }
 }
+
 
 @end

@@ -19,6 +19,27 @@
 		FE004F64219AA0BB00B8D939 /* SKLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F61219AA0BB00B8D939 /* SKLocationModel.m */; };
 		FE004F67219AA19A00B8D939 /* SKARVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F66219AA19A00B8D939 /* SKARVC.m */; };
 		FE004F6A219AA1DA00B8D939 /* SKLatLng.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F68219AA1D900B8D939 /* SKLatLng.m */; };
+		FE004F78219AB12D00B8D939 /* takePic_take.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F6C219AB12D00B8D939 /* takePic_take.png */; };
+		FE004F79219AB12D00B8D939 /* takepic_flashN.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F6D219AB12D00B8D939 /* takepic_flashN.png */; };
+		FE004F7A219AB12D00B8D939 /* takepic_flashH.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F6E219AB12D00B8D939 /* takepic_flashH.png */; };
+		FE004F7B219AB12D00B8D939 /* takePic_switch.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F71219AB12D00B8D939 /* takePic_switch.png */; };
+		FE004F7C219AB12D00B8D939 /* takePic_netN.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F72219AB12D00B8D939 /* takePic_netN.png */; };
+		FE004F7D219AB12D00B8D939 /* takePic_scaleN.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F73219AB12D00B8D939 /* takePic_scaleN.png */; };
+		FE004F7E219AB12D00B8D939 /* UIImage+SKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F74219AB12D00B8D939 /* UIImage+SKImage.m */; };
+		FE004F7F219AB12D00B8D939 /* SKCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F75219AB12D00B8D939 /* SKCameraView.m */; };
+		FE004F80219AB12D00B8D939 /* takePic_netH.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F76219AB12D00B8D939 /* takePic_netH.png */; };
+		FE004F81219AB12D00B8D939 /* takePic_scaleH.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F77219AB12D00B8D939 /* takePic_scaleH.png */; };
+		FE004F84219AC67400B8D939 /* SKAR3DVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F83219AC67300B8D939 /* SKAR3DVC.m */; };
+		FE004F87219AC90A00B8D939 /* ARModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F86219AC90A00B8D939 /* ARModelVC.m */; };
+		FE004F97219AC91900B8D939 /* miku.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE004F8C219AC91900B8D939 /* miku.gif */; };
+		FE004F98219AC91900B8D939 /* xionglaifeng.obj in Resources */ = {isa = PBXBuildFile; fileRef = FE004F8E219AC91900B8D939 /* xionglaifeng.obj */; };
+		FE004F99219AC91900B8D939 /* xionglaifeng0.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F90219AC91900B8D939 /* xionglaifeng0.png */; };
+		FE004F9A219AC91900B8D939 /* xionglaifeng1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F91219AC91900B8D939 /* xionglaifeng1.png */; };
+		FE004F9B219AC91900B8D939 /* xionglaifeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE004F92219AC91900B8D939 /* xionglaifeng1.jpg */; };
+		FE004F9C219AC91900B8D939 /* yt.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE004F93219AC91900B8D939 /* yt.gif */; };
+		FE004F9D219AC91900B8D939 /* xionglaifeng2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE004F94219AC91900B8D939 /* xionglaifeng2.png */; };
+		FE004F9E219AC91900B8D939 /* obj2opengl.pl in Resources */ = {isa = PBXBuildFile; fileRef = FE004F95219AC91900B8D939 /* obj2opengl.pl */; };
+		FE004FA1219AC94C00B8D939 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE004F9F219AC94B00B8D939 /* AGLKVertexAttribArrayBuffer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +84,38 @@
 		FE004F66219AA19A00B8D939 /* SKARVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKARVC.m; sourceTree = "<group>"; };
 		FE004F68219AA1D900B8D939 /* SKLatLng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLatLng.m; sourceTree = "<group>"; };
 		FE004F69219AA1D900B8D939 /* SKLatLng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLatLng.h; sourceTree = "<group>"; };
+		FE004F6C219AB12D00B8D939 /* takePic_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic_take.png; sourceTree = "<group>"; };
+		FE004F6D219AB12D00B8D939 /* takepic_flashN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takepic_flashN.png; sourceTree = "<group>"; };
+		FE004F6E219AB12D00B8D939 /* takepic_flashH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takepic_flashH.png; sourceTree = "<group>"; };
+		FE004F6F219AB12D00B8D939 /* SKCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCameraView.h; sourceTree = "<group>"; };
+		FE004F70219AB12D00B8D939 /* UIImage+SKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SKImage.h"; sourceTree = "<group>"; };
+		FE004F71219AB12D00B8D939 /* takePic_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic_switch.png; sourceTree = "<group>"; };
+		FE004F72219AB12D00B8D939 /* takePic_netN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic_netN.png; sourceTree = "<group>"; };
+		FE004F73219AB12D00B8D939 /* takePic_scaleN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic_scaleN.png; sourceTree = "<group>"; };
+		FE004F74219AB12D00B8D939 /* UIImage+SKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SKImage.m"; sourceTree = "<group>"; };
+		FE004F75219AB12D00B8D939 /* SKCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCameraView.m; sourceTree = "<group>"; };
+		FE004F76219AB12D00B8D939 /* takePic_netH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic_netH.png; sourceTree = "<group>"; };
+		FE004F77219AB12D00B8D939 /* takePic_scaleH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic_scaleH.png; sourceTree = "<group>"; };
+		FE004F82219AC67300B8D939 /* SKAR3DVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAR3DVC.h; sourceTree = "<group>"; };
+		FE004F83219AC67300B8D939 /* SKAR3DVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAR3DVC.m; sourceTree = "<group>"; };
+		FE004F85219AC90900B8D939 /* ARModelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARModelVC.h; sourceTree = "<group>"; };
+		FE004F86219AC90A00B8D939 /* ARModelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARModelVC.m; sourceTree = "<group>"; };
+		FE004F89219AC91900B8D939 /* xionglaifeng2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xionglaifeng2.h; sourceTree = "<group>"; };
+		FE004F8A219AC91900B8D939 /* xionglaifeng5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xionglaifeng5.h; sourceTree = "<group>"; };
+		FE004F8B219AC91900B8D939 /* xionglaifeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xionglaifeng.h; sourceTree = "<group>"; };
+		FE004F8C219AC91900B8D939 /* miku.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = miku.gif; sourceTree = "<group>"; };
+		FE004F8D219AC91900B8D939 /* xionglaifeng1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xionglaifeng1.h; sourceTree = "<group>"; };
+		FE004F8E219AC91900B8D939 /* xionglaifeng.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xionglaifeng.obj; sourceTree = "<group>"; };
+		FE004F8F219AC91900B8D939 /* xionglaifeng4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xionglaifeng4.h; sourceTree = "<group>"; };
+		FE004F90219AC91900B8D939 /* xionglaifeng0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xionglaifeng0.png; sourceTree = "<group>"; };
+		FE004F91219AC91900B8D939 /* xionglaifeng1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xionglaifeng1.png; sourceTree = "<group>"; };
+		FE004F92219AC91900B8D939 /* xionglaifeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xionglaifeng1.jpg; sourceTree = "<group>"; };
+		FE004F93219AC91900B8D939 /* yt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yt.gif; sourceTree = "<group>"; };
+		FE004F94219AC91900B8D939 /* xionglaifeng2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xionglaifeng2.png; sourceTree = "<group>"; };
+		FE004F95219AC91900B8D939 /* obj2opengl.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = obj2opengl.pl; sourceTree = "<group>"; };
+		FE004F96219AC91900B8D939 /* xionglaifeng3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xionglaifeng3.h; sourceTree = "<group>"; };
+		FE004F9F219AC94B00B8D939 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		FE004FA0219AC94C00B8D939 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +146,7 @@
 		FE004F1F219A9BB700B8D939 = {
 			isa = PBXGroup;
 			children = (
+				FE004F6B219AB12D00B8D939 /* Classes */,
 				FE004F5E219AA02200B8D939 /* 3DCamera */,
 				FE004F5D219AA00400B8D939 /* LocationCamera */,
 				FE004F2A219A9BB700B8D939 /* SKARNoARKit */,
@@ -164,8 +218,55 @@
 		FE004F5E219AA02200B8D939 /* 3DCamera */ = {
 			isa = PBXGroup;
 			children = (
+				FE004F82219AC67300B8D939 /* SKAR3DVC.h */,
+				FE004F83219AC67300B8D939 /* SKAR3DVC.m */,
+				FE004F85219AC90900B8D939 /* ARModelVC.h */,
+				FE004F86219AC90A00B8D939 /* ARModelVC.m */,
+				FE004FA0219AC94C00B8D939 /* AGLKVertexAttribArrayBuffer.h */,
+				FE004F9F219AC94B00B8D939 /* AGLKVertexAttribArrayBuffer.m */,
+				FE004F88219AC91900B8D939 /* Resource */,
 			);
 			path = 3DCamera;
+			sourceTree = "<group>";
+		};
+		FE004F6B219AB12D00B8D939 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE004F6F219AB12D00B8D939 /* SKCameraView.h */,
+				FE004F75219AB12D00B8D939 /* SKCameraView.m */,
+				FE004F70219AB12D00B8D939 /* UIImage+SKImage.h */,
+				FE004F74219AB12D00B8D939 /* UIImage+SKImage.m */,
+				FE004F6C219AB12D00B8D939 /* takePic_take.png */,
+				FE004F6D219AB12D00B8D939 /* takepic_flashN.png */,
+				FE004F6E219AB12D00B8D939 /* takepic_flashH.png */,
+				FE004F71219AB12D00B8D939 /* takePic_switch.png */,
+				FE004F72219AB12D00B8D939 /* takePic_netN.png */,
+				FE004F73219AB12D00B8D939 /* takePic_scaleN.png */,
+				FE004F76219AB12D00B8D939 /* takePic_netH.png */,
+				FE004F77219AB12D00B8D939 /* takePic_scaleH.png */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE004F88219AC91900B8D939 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE004F89219AC91900B8D939 /* xionglaifeng2.h */,
+				FE004F8A219AC91900B8D939 /* xionglaifeng5.h */,
+				FE004F8B219AC91900B8D939 /* xionglaifeng.h */,
+				FE004F8C219AC91900B8D939 /* miku.gif */,
+				FE004F8D219AC91900B8D939 /* xionglaifeng1.h */,
+				FE004F8E219AC91900B8D939 /* xionglaifeng.obj */,
+				FE004F8F219AC91900B8D939 /* xionglaifeng4.h */,
+				FE004F90219AC91900B8D939 /* xionglaifeng0.png */,
+				FE004F91219AC91900B8D939 /* xionglaifeng1.png */,
+				FE004F92219AC91900B8D939 /* xionglaifeng1.jpg */,
+				FE004F93219AC91900B8D939 /* yt.gif */,
+				FE004F94219AC91900B8D939 /* xionglaifeng2.png */,
+				FE004F95219AC91900B8D939 /* obj2opengl.pl */,
+				FE004F96219AC91900B8D939 /* xionglaifeng3.h */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +372,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE004F7C219AB12D00B8D939 /* takePic_netN.png in Resources */,
+				FE004F78219AB12D00B8D939 /* takePic_take.png in Resources */,
+				FE004F80219AB12D00B8D939 /* takePic_netH.png in Resources */,
+				FE004F7A219AB12D00B8D939 /* takepic_flashH.png in Resources */,
+				FE004F9E219AC91900B8D939 /* obj2opengl.pl in Resources */,
 				FE004F38219A9BBA00B8D939 /* LaunchScreen.storyboard in Resources */,
+				FE004F81219AB12D00B8D939 /* takePic_scaleH.png in Resources */,
+				FE004F7B219AB12D00B8D939 /* takePic_switch.png in Resources */,
 				FE004F35219A9BBA00B8D939 /* Assets.xcassets in Resources */,
+				FE004F79219AB12D00B8D939 /* takepic_flashN.png in Resources */,
+				FE004F9D219AC91900B8D939 /* xionglaifeng2.png in Resources */,
+				FE004F98219AC91900B8D939 /* xionglaifeng.obj in Resources */,
+				FE004F7D219AB12D00B8D939 /* takePic_scaleN.png in Resources */,
+				FE004F97219AC91900B8D939 /* miku.gif in Resources */,
+				FE004F9B219AC91900B8D939 /* xionglaifeng1.jpg in Resources */,
+				FE004F9A219AC91900B8D939 /* xionglaifeng1.png in Resources */,
 				FE004F33219A9BB700B8D939 /* Main.storyboard in Resources */,
+				FE004F99219AC91900B8D939 /* xionglaifeng0.png in Resources */,
+				FE004F9C219AC91900B8D939 /* yt.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +415,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE004FA1219AC94C00B8D939 /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				FE004F30219A9BB700B8D939 /* ViewController.m in Sources */,
+				FE004F7E219AB12D00B8D939 /* UIImage+SKImage.m in Sources */,
 				FE004F67219AA19A00B8D939 /* SKARVC.m in Sources */,
 				FE004F64219AA0BB00B8D939 /* SKLocationModel.m in Sources */,
 				FE004F63219AA0BB00B8D939 /* SKLocationView.m in Sources */,
 				FE004F6A219AA1DA00B8D939 /* SKLatLng.m in Sources */,
+				FE004F84219AC67400B8D939 /* SKAR3DVC.m in Sources */,
 				FE004F3B219A9BBA00B8D939 /* main.m in Sources */,
+				FE004F87219AC90A00B8D939 /* ARModelVC.m in Sources */,
+				FE004F7F219AB12D00B8D939 /* SKCameraView.m in Sources */,
 				FE004F2D219A9BB700B8D939 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,14 +595,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LF9QD7QW56;
 				INFOPLIST_FILE = SKARNoARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SKVoiceWave.SKARNoARKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiNanShangHui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bff1c684-ee32-4483-86ae-1d401ec43be0";
+				PROVISIONING_PROFILE_SPECIFIER = XiNanShangHui_Development;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -489,14 +614,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LF9QD7QW56;
 				INFOPLIST_FILE = SKARNoARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SKVoiceWave.SKARNoARKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiNanShangHui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c801762b-1220-4ad9-9da8-bd76c462f333";
+				PROVISIONING_PROFILE_SPECIFIER = XiNanShangHui_distribution;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

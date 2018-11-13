@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SKARVC.h"
+#import "SKAR3DVC.h"
 
 @interface ViewController ()
 
@@ -19,6 +21,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)locBtnClick:(id)sender {
+    [self.navigationController pushViewController:[SKARVC new] animated:YES];
+}
+- (IBAction)DBtnClick:(id)sender {
+    [self.navigationController pushViewController:[SKAR3DVC new] animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
